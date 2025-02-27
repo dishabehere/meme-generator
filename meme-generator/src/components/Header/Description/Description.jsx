@@ -12,7 +12,7 @@ function Description() {
           Type your punchline in the bottom box
         </li>
         <li className="description__list-item">
-          Hit GENERATE to slap your words on a random meme
+          Hit GENERATE to print your text on a random meme
         </li>
         <li className="description__list-item">Share and enjoy!</li>
       </ol>

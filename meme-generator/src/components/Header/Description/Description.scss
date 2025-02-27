@@ -2,15 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 600;
+  font-family: "Courier New";
+  font-weight: 700;
   margin-bottom: 2.5rem;
   margin-left: 85px;
+  color: #495159;
 
   &__title {
     text-align: center;
-    padding-bottom: 20px;
-    font-size: 20px;
+    padding: 20px 0;
+    font-size: 28px;
   }
 
   &__list-item {

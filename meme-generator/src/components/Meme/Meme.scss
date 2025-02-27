@@ -1,5 +1,5 @@
 .meme {
-  background-color: #a69888;
+  background-color: #b0c4b1;
   border: 1px solid black;
   padding: 50px;
   margin-bottom: 30px;
@@ -7,6 +7,8 @@
   height: 700px;
   border-radius: 8px;
   box-shadow: 2px 3px 3px grey;
+  display: flex;
+  flex-direction: column;
 
   &__img {
     position: relative;
@@ -31,10 +33,10 @@
     margin: 15px 0;
     padding: 0 5px;
     font-family: impact, sans-serif;
-    font-size: 1em;
+    font-size: 18px;
     text-transform: uppercase;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     text-shadow: 2px 2px 0 #000;
   }
 
@@ -47,18 +49,24 @@
   }
 
   &__download {
-    padding: 0.75rem 1.5rem;
+    padding: 10px;
     font-size: 1rem;
-    font-weight: bold;
-    color: white;
-    background-color: #27ae60;
-    border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: 1px solid #495159;
+    font-family: impact, sans-serif;
+    background-color: #f7e1d7;
     cursor: pointer;
-    transition: 0.3s;
+    text-transform: uppercase;
+    margin-top: 15px;
+    // display: flex;
+    // justify-content: center;
   
     &:hover {
-      background-color: #1e8449;
+      background-color: #edafb8;
+    }
+
+    &:active {
+      transform: scale(1.05);
     }
   }
 }

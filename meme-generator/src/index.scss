@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,6 +8,6 @@
 
 body {
   width: 100%;
-  background-color: #d1ffd7;
+  background-image: linear-gradient(#f5ebe0, #d6ccc2);
   font-family: "Sigmar", "Open-Sans";
 }
