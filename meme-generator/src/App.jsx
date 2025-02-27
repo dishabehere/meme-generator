@@ -52,7 +52,7 @@ class App extends React.Component {
         <Header />
         <Description />
         {this.state.error && <p className="error">{this.state.error}</p>}
-        <div>
+        <div className="content__container">
           <Form
             topText={this.state.topText}
             bottomText={this.state.bottomText}
