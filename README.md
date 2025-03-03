@@ -1,6 +1,6 @@
 # Meme Me This - Automatic Meme Generator
 
-![Meme Me This Preview](assets/meme-generator-preview.png)
+![Meme Me This Preview](meme-generator/src/assets/images/img-1.png)
 
 ## What is this?
 Are you tired of searching for the perfect meme template and editing it manually? Say hello to **Meme Me This!** 🎭💡 A fun and easy-to-use automatic meme generator that lets you create hilarious memes in seconds. Just enter your text, hit **GENERATE**, and voilà – your meme is ready to go! And yes, you can download it instantly as a PNG file, perfect for sharing with your friends, social media, or even your pet (if they're into memes). 🐶😂
@@ -10,7 +10,7 @@ Check out the magic in action: [Meme Me This](https://github.com/dishabehere/mem
 
 ## How It Works 🛠️
 
-![Meme Generator Input](assets/images/img-1.png)  
+![Meme Generator Input](meme-generator/src/assets/images/img-2.png)  
 
 1. Type your first line of text in the top box.
 2. Type your punchline in the bottom box.
@@ -56,7 +56,6 @@ node server.js
 ### 4. Open the frontend 🚀
 Simply open `index.html` in your favorite browser, and boom – meme away!
 
-![Meme Generator Output](assets/meme-generator-output.png)  
 
 ## Features ✨
 ✅ Type your own meme text
@@ -70,6 +69,8 @@ Feel like adding new meme templates or improving the UI? Fork the repo, create a
 
 ## License 📜
 MIT – because memes should be free for everyone! 🎭
+
+![Meme Generator Output](meme-generator/src/assets/images/img-3.png) 
 
 ---
 🚀 **Meme responsibly and share the laughter!** 🚀
